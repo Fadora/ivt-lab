@@ -6,7 +6,7 @@ import java.util.Random;
 * Class storing and managing the torpedoes of a ship
 *
 * (Deliberately contains bugs.)
-*/
+*/ //im modifying this file
 public class TorpedoStore {
 
   // rate of failing to fire torpedos [0.0, 1.0]
