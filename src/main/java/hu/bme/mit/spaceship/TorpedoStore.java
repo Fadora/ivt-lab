@@ -3,7 +3,8 @@ package hu.bme.mit.spaceship;
 import java.util.Random;
 
 /**
-* Class storing and managing the torpedoes of a ship
+* Class storing and managing 
+* the torpedoes of a ship
 *
 * (Deliberately contains bugs.)
 */ 
@@ -34,9 +35,7 @@ public class TorpedoStore {
     }
 
     boolean success = false;
-
     // simulate random overheating of the launcher bay which prevents firing
-    
     double r = new Random().nextDouble();
 
     if (r >= FAILURE_RATE) {
@@ -47,7 +46,6 @@ public class TorpedoStore {
       // simulated failure
       success = false;
     }
-
     return success;
   }
 
